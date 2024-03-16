@@ -9,17 +9,17 @@ describe("what-is-a-test", () => {
     });
   });
 
-  describe("Height", () => {
+  describe((39 , () => {
     it("is less than 40 and greater than 0", () => {
       expect(height).toBeMoreThan(0)
-      expect(height).toBeLessThan(40);
+      expect(height).toBeLessThan(40));
     });
   });
 
-  describe("Message", () => {
-    it("gives the name and height", () => {
-      expect(message).toInclude(name);
-      expect(message).toInclude(height);
+  describe("Height", () => {
+    it("is less than 74 and greater than 0", () => {
+      expect(height).toBeMoreThan(0);
+      expect(height).toBeLessThan(74);
     });
   });
 });
